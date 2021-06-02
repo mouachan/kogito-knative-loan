@@ -3,8 +3,8 @@
 
 ## Deploy on openshift
 - Please install : 
-  - oc cli : https://docs.openshift.com/container-platform/4.5/cli_reference/openshift_cli/getting-started-cli.html
-  - kn cli : https://docs.openshift.com/container-platform/4.5/serverless/installing_serverless/installing-kn.html#installing-kn
+  - oc cli : https://docs.openshift.com/container-platform/4.7/cli_reference/openshift_cli/getting-started-cli.html
+  - kn cli : https://docs.openshift.com/container-platform/4.7/serverless/installing_serverless/installing-kn.html#installing-kn
   - kogito cli : https://docs.jboss.org/kogito/release/latest/html_single/#proc-kogito-operator-and-cli-installing_kogito-deploying-on-openshift
 
 
