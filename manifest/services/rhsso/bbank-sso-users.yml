@@ -1,0 +1,26 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakUser
+metadata:
+  name: mouachan
+  labels:
+   app: bbank-sso
+spec:
+  user:
+    id: alice
+    username: alice
+    firstname: alice
+    lastname: alice
+    enabled: true
+    emailVerified: True
+    credentials: 
+      - type: "password"
+        value: "alice"
+    disableableCredentialTypes: 
+      - password
+    requiredActions: []
+    realmRoles:
+      - user
+    groups: []
+  realmSelector:
+    matchLabels:
+      app: kogito

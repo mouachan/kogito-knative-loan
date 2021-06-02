@@ -26,19 +26,12 @@ nb-configuration.xml
 # patch
 *.orig
 *.rej
-# mongo data volumes
-**/mongo-volume
+
 # Maven
 target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 release.properties
-#nodejs
-**/node_modules
-//dist
-yarn-error.log
-stats.json
-coverage
-storybook-static
-.env
+#secret
+manifest/github-secret.yml

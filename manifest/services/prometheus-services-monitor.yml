@@ -1,0 +1,69 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    k8s-app: prometheus
+    monitoring-key: "kogito"
+  name: kogito-monitor-services
+spec:
+  endpoints:
+    - interval: 5s
+      path: /metrics
+      port: http
+  selector:
+    matchLabels:
+      monitoring: prometheus
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    app: eligibility
+  name: eligibility
+spec:
+  endpoints:
+  - path: /metrics
+    targetPort: 8080
+    scheme: http
+  namespaceSelector:
+    matchNames:
+    - bbtest
+  selector:
+    matchLabels:
+      app: eligibility
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    app: notation
+  name: notation
+spec:
+  endpoints:
+  - path: /metrics
+    targetPort: 8080
+    scheme: http
+  namespaceSelector:
+    matchNames:
+    - bbtest
+  selector:
+    matchLabels:
+      app: notation
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  labels:
+    app: loan
+  name: loan
+spec:
+  endpoints:
+  - path: /metrics
+    targetPort: 8080
+    scheme: http
+  namespaceSelector:
+    matchNames:
+    - bbtest
+  selector:
+    matchLabels:
+      app: loan

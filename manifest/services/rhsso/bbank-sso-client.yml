@@ -1,0 +1,22 @@
+apiVersion: keycloak.org/v1alpha1
+kind: KeycloakClient
+metadata:
+  name: bbank-sso-client
+  labels:
+    app: bbank-sso
+spec:
+  realmSelector:
+     matchLabels:
+      app: bbank-sso
+  client:
+    clientId: bbank-sso-client
+    secret: bbank-sso-client
+    clientAuthenticatorType: bbank-sso-client
+    protocol: openid-connect
+    enabled: true
+    publicClient: true
+    standardFlowEnabled: true
+    directAccessGrantsEnabled: true
+    redirectUris: ["http://bbank-ui-bbank-apps.apps.ocp4.ouachani.org/*"]
+    webOrigins: ["*"]
+    fullScopeAllowed: false
