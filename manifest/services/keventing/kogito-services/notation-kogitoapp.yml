@@ -4,6 +4,7 @@ metadata:
   name: notation
 spec:
   type: Binary
+  buildImage: quay.io/kiegroup/kogito-runtime-jvm-nightly:latest
 
   #type: RemoteSource
   #gitSource:

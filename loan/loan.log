@@ -1,0 +1,143 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------------< org.redhat.bbank:loan >------------------------
+[INFO] Building loan 2.0.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ loan ---
+[INFO] Deleting /Users/mouachani/projects/kogito-knative-loan/loan/target
+[INFO] 
+[INFO] --- quarkus-maven-plugin:1.13.3.Final:generate-code (default) @ loan ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ loan ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 7 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ loan ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /Users/mouachani/projects/kogito-knative-loan/loan/target/classes
+[INFO] /Users/mouachani/projects/kogito-knative-loan/loan/src/main/java/org/kie/kogito/app/VertxRouter.java: /Users/mouachani/projects/kogito-knative-loan/loan/src/main/java/org/kie/kogito/app/VertxRouter.java uses or overrides a deprecated API.
+[INFO] /Users/mouachani/projects/kogito-knative-loan/loan/src/main/java/org/kie/kogito/app/VertxRouter.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- quarkus-maven-plugin:1.13.3.Final:dev (default-cli) @ loan ---
+[ERROR] Port 5005 in use, not starting in debug mode
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-bom/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-parent/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-build-parent/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-runtimes/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-bom/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss.public: https://repository.jboss.org/nexus/content/repositories/public/org/redhat/bbank/model/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/redhat/bbank/model/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-public-repository-group: https://repository.jboss.org/nexus/content/groups/public-jboss/org/redhat/bbank/model/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-extension/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-extension-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-api/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-api-parent/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-kie7-bom/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-build/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-timer/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-pmml-api-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/drools/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-rules/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-rules-extension/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-drools/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/drools-core/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-services/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/drools-core-static/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/drools-compiler/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-ruleunits/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-drools-model/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-decisions/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-decisions-extension/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-dmn/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-predictions/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-predictions-extension/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-pmml/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-pmml-dependencies/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/jbpm-bpmn2/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/jbpm/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/jbpm-flow-builder/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/jbpm-flow/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-events-api/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/process-workitems/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/process-serialization-protobuf/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/jbpm-serverless-workflow/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-rest-workitem/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-workitems/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-openapi-workitem/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-cloudevents-quarkus-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+LogManager error of type WRITE_FAILURE: The delayed handler's queue was overrun and log record(s) were lost. Did you forget to configure logging?
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/cloudevents/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/addons/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-cloudevents-quarkus-common-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-cloudevents-common-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/cloudevents-utils/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/process-management-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/process-management/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/process-management-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-rest-exception-handler-quarkus/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-rest-exception-handler/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-rest-exception-handler-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/drools-decisiontables/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-prometheus-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-prometheus/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-core-common/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-core/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/grafana-api/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-prometheus-quarkus-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/monitoring-core-quarkus-addon/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-deployment/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-common-deployment/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-core/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-modules/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-api/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-openapi/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-rules-deployment/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-rules/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-decisions-deployment/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-decisions/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-quarkus-predictions-deployment/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-predictions/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-pmml-openapi/2.0.0-SNAPSHOT/maven-metadata.xml
+Downloading from jboss-enterprise-repository-group: https://maven.repository.redhat.com/ga/org/kie/kogito/kogito-codegen-processes/2.0.0-SNAPSHOT/maven-metadata.xml
+2021-06-08 17:22:22,487 INFO  [org.kie.kog.cod.api.uti.AddonsConfigDiscovery] (build-17) Performed addonsConfig discovery, found: AddonsConfig{usePersistence=false, useTracing=false, useMonitoring=true, usePrometheusMonitoring=true, useCloudEvents=true, useExplainability=false, useProcessSVG=false}
+2021-06-08 17:22:22,723 INFO  [org.kie.kog.cod.cor.uti.ApplicationGeneratorDiscovery] (build-17) Generator discovery performed, found [openapispecs, processes, rules, decisions, predictions]
+2021-06-08 17:22:23,850 INFO  [org.kie.kog.cod.dec.DecisionValidation] (build-17) Initializing DMN DT Validator...
+2021-06-08 17:22:23,851 INFO  [org.kie.kog.cod.dec.DecisionValidation] (build-17) DMN DT Validator initialized.
+2021-06-08 17:22:23,851 INFO  [org.kie.kog.cod.dec.DecisionValidation] (build-17) Analysing decision tables in DMN Model 'offer' ...
+2021-06-08 17:22:23,859 INFO  [org.kie.kog.cod.dec.DecisionValidation] (build-17)  analysis for decision table 'offer':
+2021-06-08 17:22:23,861 WARN  [org.kie.kog.cod.dec.DecisionValidation] (build-17)   Columns: [notation.note] relate to FEEL string values which can be enumerated for the inputs; Gap analysis skipped.
+2021-06-08 17:22:24,679 INFO  [org.kie.kog.cod.api.uti.AddonsConfigDiscovery] (build-45) Performed addonsConfig discovery, found: AddonsConfig{usePersistence=false, useTracing=false, useMonitoring=true, usePrometheusMonitoring=true, useCloudEvents=true, useExplainability=false, useProcessSVG=false}
+2021-06-08 17:22:24,683 INFO  [org.kie.kog.qua.com.dep.KogitoQuarkusResourceUtils] (build-45) No Java source to compile
+2021-06-08 17:22:24,787 WARN  [io.qua.res.com.dep.ResteasyCommonProcessor] (build-10) Directly injecting a @ConfigProperty into a JAX-RS provider may lead to unexpected results. To ensure proper results, please change the type of the field to javax.enterprise.inject.Instance<boolean>. Offending field is 'httpInterceptorUseDefault' of class 'org.kie.kogito.monitoring.core.quarkus.QuarkusMetricsFilterRegister'
+__  ____  __  _____   ___  __ ____  ______ 
+ --/ __ \/ / / / _ | / _ \/ //_/ / / / __/ 
+ -/ /_/ / /_/ / __ |/ , _/ ,< / /_/ /\ \   
+--\___\_\____/_/ |_/_/|_/_/|_|\____/___/   
+2021-06-08 17:22:26,814 WARN  [io.sma.rea.mes.provider] (Quarkus Main Thread) SRMSG00207: Some components are not connected to either downstream consumers or upstream producers:
+	- SubscriberMethod{method:'org.kie.kogito.addon.cloudevents.quarkus.QuarkusCloudEventPublisher#onEvent', incoming:'kogito_incoming_stream'} has no upstream
+
+2021-06-08 17:22:26,867 INFO  [org.kie.kog.add.clo.qua.QuarkusKogitoExtensionInitializer] (Quarkus Main Thread) Registered Kogito CloudEvent extension
+2021-06-08 17:22:26,886 DEBUG [org.kie.kog.mon.cor.qua.QuarkusEventListenerFactory] (Quarkus Main Thread) Producing default listener for process monitoring.
+2021-06-08 17:22:26,889 DEBUG [org.kie.kog.mon.cor.qua.QuarkusEventListenerFactory] (Quarkus Main Thread) Producing default listener for rule monitoring.
+2021-06-08 17:22:26,922 INFO  [org.kie.kog.ser.eve.imp.AbstractMessageConsumer] (Quarkus Main Thread) Consumer for class org.redhat.bbank.model.Loan started.
+2021-06-08 17:22:26,989 INFO  [io.quarkus] (Quarkus Main Thread) loan 2.0.0-SNAPSHOT on JVM (powered by Quarkus 1.13.3.Final) started in 5.394s. Listening on: http://localhost:8780
+2021-06-08 17:22:26,989 INFO  [io.quarkus] (Quarkus Main Thread) Profile dev activated. Live Coding activated.
+2021-06-08 17:22:26,989 INFO  [io.quarkus] (Quarkus Main Thread) Installed features: [cdi, hibernate-validator, kogito-decisions, kogito-predictions, kogito-processes, kogito-rules, mutiny, qute, rest-client, resteasy, resteasy-jackson, servlet, smallrye-context-propagation, smallrye-health, smallrye-openapi, smallrye-reactive-messaging, swagger-ui, vertx, vertx-web]
+2021-06-08 18:04:00,605 INFO  [io.quarkus] (Shutdown thread) loan stopped in 0.029s
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  42:14 min
+[INFO] Finished at: 2021-06-08T18:04:00+02:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal io.quarkus:quarkus-maven-plugin:1.13.3.Final:dev (default-cli) on project loan: Failed to run: Dev mode process did not complete successfully -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

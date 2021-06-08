@@ -4,6 +4,7 @@ metadata:
   name: eligibility
 spec:
   type: Binary
+  buildImage: quay.io/kiegroup/kogito-runtime-jvm-nightly:latest
  # type: RemoteSource
  # gitSource:
  #   contextDir: /eligibility
@@ -33,3 +34,4 @@ spec:
     app: eligibility
   infra:
     - kogito-knative-infra
+  #runtimeImage: quay.io/kiegroup/kogito-runtime-jvm:1.6
